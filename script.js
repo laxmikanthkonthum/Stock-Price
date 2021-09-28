@@ -22,13 +22,13 @@ function calculateEarnings(ip,quan,curr){
         var loss = initialInv - currentInv;
         var lossPer = ((loss/initialInv) * 100).toFixed(2);
         output.style.color = 'red';
-        output.innerText = "Oh no! you made a loss of " + loss + ' rupees and the loss percent is ' + lossPer + '%  😩';
+        output.innerText = "Oh No! You made a loss of " + loss + ' rupees and the loss percent is ' + lossPer + '%  😩';
     }
     else if(initialInv < currentInv){
         var profit = currentInv - initialInv;
         var profitPer = ((profit/initialInv) * 100).toFixed(2);
         output.style.color = 'green';
-        output.innerText = "Yayy! you made a profit of " + profit + ' rupees and the profit percent is ' + profitPer + '%  🤑' ;
+        output.innerText = "Yayy! You made a profit of " + profit + ' rupees and the profit percent is ' + profitPer + '%  🤑' ;
     }
     else{
         output.innerText = "No change in investment  🙂";
