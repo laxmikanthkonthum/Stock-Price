@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap');
+:root{
+    --primary-color:#d5896f;
+    --secondary-color: #6d6875;
+   
+}
+label{
+    color: whitesmoke;
+}
+h1{
+    color: #3c08b6;
+}
+body{
+    background-color: var(--primary-color);
+    font-family: 'Gemunu Libre', sans-serif;
+    margin: auto;
+    max-width: 400px;
+    font-size: x-large;
+}
+
+.textbox{
+padding-bottom: 1rem;
+}
+#submitBtn{
+    padding: 0.5rem;
+    margin: 1rem;
+    background-color: #52b69a;
+    border-radius: 0.5rem;
+    margin-left: 90px;
+}
+#output{
+    color: #004b23;
+    font-weight: bolder;
+    font-size: large;
+    font-family: 'Montserrat', sans-serif;
+}
